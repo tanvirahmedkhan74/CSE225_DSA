@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1666024709 source:/home/tanvir/Coding/CSE225_L3_T3/main.cpp
+	<iostream>
+	"DynArr.h"
+
+1666024709 /home/tanvir/Coding/CSE225_L3_T3/DynArr.h
+
