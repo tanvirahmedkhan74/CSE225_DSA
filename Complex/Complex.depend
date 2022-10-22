@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1666416754 source:/home/tanvir/Coding/Complex/main.cpp
+	<iostream>
+	"complex.h"
+
+1666416772 /home/tanvir/Coding/Complex/complex.h
+
+1666416729 source:/home/tanvir/Coding/Complex/complex.cpp
+	"complex.h"
+	<iostream>
+
