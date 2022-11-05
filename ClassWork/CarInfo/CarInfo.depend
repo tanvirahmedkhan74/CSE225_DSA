@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1667633624 source:c:\users\lib-603\documents\carinfo\main.cpp
+	<iostream>
+	"carInfo.h"
+	"sortedType.cpp"
+
+1667632891 source:c:\users\lib-603\documents\carinfo\sortedtype.cpp
+	"sortedType.h"
+
+1667632878 c:\users\lib-603\documents\carinfo\sortedtype.h
+
+1667633946 source:c:\users\lib-603\documents\carinfo\carinfo.cpp
+	"carInfo.h"
+	<iostream>
+
+1667634083 c:\users\lib-603\documents\carinfo\carinfo.h
+
+1667632891 c:\users\lib-603\documents\carinfo\sortedtype.cpp
+	"sortedType.h"
+
