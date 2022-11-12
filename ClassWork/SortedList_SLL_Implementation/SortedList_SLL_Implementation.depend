@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1668288083 source:d:\new folder\sortedlist_sll_implementation\sortedtype.cpp
+	"sortedtype.h"
+	<iostream>
+
+1668288099 d:\new folder\sortedlist_sll_implementation\sortedtype.h
+
+1668288098 source:d:\new folder\sortedlist_sll_implementation\timestamp.cpp
+	"timeStamp.h"
+	<iostream>
+
+1668288099 d:\new folder\sortedlist_sll_implementation\timestamp.h
+
+1668288099 source:d:\new folder\sortedlist_sll_implementation\main.cpp
+	<iostream>
+	"sortedtype.cpp"
+	"timestamp.h"
+
+1668288083 d:\new folder\sortedlist_sll_implementation\sortedtype.cpp
+	"sortedtype.h"
+	<iostream>
+
