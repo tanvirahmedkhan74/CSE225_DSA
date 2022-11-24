@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1669274022 source:c:\users\lib-603\desktop\shafin2131203642\stack sll implementation\stacktype.cpp
+	<iostream>
+	"stacktype.h"
+
+1669275665 c:\users\lib-603\desktop\shafin2131203642\stack sll implementation\stacktype.h
+
+1669278288 source:c:\users\lib-603\desktop\shafin2131203642\stack sll implementation\main.cpp
+	<bits/stdc++.h>
+	<string>
+	"stacktype.cpp"
+
+1669274022 c:\users\lib-603\desktop\shafin2131203642\stack sll implementation\stacktype.cpp
+	<iostream>
+	"stacktype.h"
+
