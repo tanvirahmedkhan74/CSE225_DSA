@@ -32,7 +32,11 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="heaptype.cpp" />
+		<Unit filename="heaptype.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="pqtype.cpp" />
+		<Unit filename="pqtype.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />
