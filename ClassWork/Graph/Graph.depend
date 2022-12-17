@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1514140574 source:c:\users\lib-603\desktop\graph\main.cpp
+	<iostream>
+
+1671262050 source:c:\users\lib-603\desktop\graph\quetype.cpp
+	"quetype.h"
+	<iostream>
+
+1671262037 c:\users\lib-603\desktop\graph\quetype.h
+
+1671262013 source:c:\users\lib-603\desktop\graph\stacktype.cpp
+	<iostream>
+	"stacktype.h"
+
+1671261996 c:\users\lib-603\desktop\graph\stacktype.h
+
