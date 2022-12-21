@@ -1,6 +1,13 @@
 #include <iostream>
 #include "graphtype.cpp"
 
+template <class T>
+void hasEdge(GraphType<T>& graph,T u, T v){
+    if(graph.FoundEdge(u, v)){
+        std::cout << "There is an Edge\n";
+    }else std::cout << "There is no Edge\n";
+}
+
 int main()
 {
     GraphType<char> graph = GraphType<char>(8);
@@ -25,7 +32,17 @@ int main()
     graph.AddEdge('F', 'H', 1);
     graph.AddEdge('H', 'E', 1);
 
+    std::cout << graph.OutDegree('D') << "\n";
+
+    hasEdge(graph, 'A', 'D');
+    hasEdge(graph, 'B', 'D');
+
     graph.DepthFirstSearch('B', 'E');
+    graph.DepthFirstSearch('E', 'B');
+
+    graph.BreadthFirstSearch('B', 'E');
+    graph.BreadthFirstSearch('E', 'B');
+
     graph.BFS_Shortest_Len('B', 'E');
     return 0;
 }

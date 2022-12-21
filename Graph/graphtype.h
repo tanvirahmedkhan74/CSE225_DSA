@@ -28,6 +28,8 @@ public:
     void BreadthFirstSearch(T, T);
 
     void BFS_Shortest_Len(T fromVertex, T toVertex);
+    int  OutDegree(T vertex);
+    bool FoundEdge(T u, T v);
 private:
     int numVertices;
     int maxVertices;

@@ -178,7 +178,7 @@ void GraphType<T>::DepthFirstSearch(T fromVertex, T toVertex){
     std::cout << "\n";
 
     if(found == false){
-        std::cout << "No Path Found!\n";
+        std::cout << "Path not Found!\n";
     }
 }
 
@@ -256,4 +256,24 @@ void GraphType<T>::BFS_Shortest_Len(T fromVertex, T toVertex){
     std::cout << "\n";
 
     if(!found) std::cout << "Path not found\n";
+}
+
+template <class T>
+int GraphType<T>::OutDegree(T vertex){
+    int index = IndexIs(vertices, vertex);
+
+    int degree = 0;
+    for(int i=0;i<maxVertices;i++){
+        if(edges[index][i] > 0) degree++;
+    }
+
+    return degree;
+}
+
+template <class T>
+bool GraphType<T>::FoundEdge(T u, T v){
+    int row = IndexIs(vertices, u);
+    int col = IndexIs(vertices, v);
+
+    return (edges[row][col] > 0);
 }
