@@ -1,0 +1,41 @@
+# depslib dependency file v1.0
+1671560452 source:c:\users\tanvir\documents\coding\cse225\graph\quetype.cpp
+	"quetype.h"
+	<iostream>
+
+1671560434 c:\users\tanvir\documents\coding\cse225\graph\quetype.h
+
+1671560482 source:c:\users\tanvir\documents\coding\cse225\graph\stacktype.cpp
+	<iostream>
+	"stacktype.h"
+
+1671560409 c:\users\tanvir\documents\coding\cse225\graph\stacktype.h
+
+1671633487 source:c:\users\tanvir\documents\coding\cse225\graph\graphtype.cpp
+	<iostream>
+	"stacktype.cpp"
+	"quetype.cpp"
+	"graphtype.h"
+
+1671560482 c:\users\tanvir\documents\coding\cse225\graph\stacktype.cpp
+	<iostream>
+	"stacktype.h"
+
+1671560452 c:\users\tanvir\documents\coding\cse225\graph\quetype.cpp
+	"quetype.h"
+	<iostream>
+
+1671631816 c:\users\tanvir\documents\coding\cse225\graph\graphtype.h
+	"stacktype.h"
+	"quetype.h"
+
+1671633424 source:c:\users\tanvir\documents\coding\cse225\graph\main.cpp
+	<iostream>
+	"graphtype.cpp"
+
+1671633487 c:\users\tanvir\documents\coding\cse225\graph\graphtype.cpp
+	<iostream>
+	"stacktype.cpp"
+	"quetype.cpp"
+	"graphtype.h"
+
