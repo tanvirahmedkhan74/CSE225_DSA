@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1670999550 source:c:\users\tanvir\documents\coding\cse225\bstree\binarysearchtree.cpp
+	"binarysearchtree.h"
+	"quetype.cpp"
+	<iostream>
+
+1670998120 c:\users\tanvir\documents\coding\cse225\bstree\binarysearchtree.h
+	"quetype.h"
+
+1670998138 c:\users\tanvir\documents\coding\cse225\bstree\quetype.h
+
+1670998162 c:\users\tanvir\documents\coding\cse225\bstree\quetype.cpp
+	"quetype.h"
+	<iostream>
+
+1670998162 source:c:\users\tanvir\documents\coding\cse225\bstree\quetype.cpp
+	"quetype.h"
+	<iostream>
+
